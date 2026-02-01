@@ -1,0 +1,84 @@
+@charset "UTF-08";
+@font-face {
+    font-family: idroid;
+    src: url(fontes/idroid.otf) format(otf);
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    text-align: justify;
+    margin: auto;
+}
+
+body > div {
+    background-color: white;
+    margin: auto;
+}
+
+body > div > h1 {
+    font-family: idroid;
+    color: #1A5C38;
+}
+
+body > div > h2 {
+    font-family: idroid;
+    color: #1A5C38;
+}
+
+
+header{
+    background: linear-gradient(to top, #1A5C38,#84E1AD);
+    height: auto;
+    width: auto;
+}
+
+main {
+    margin: auto;
+    height: 50%;
+    width: 50%;
+}
+
+main > h1 {
+    font-family: idroid;
+}
+
+main> h2 {
+    font-family: idroid;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: auto;
+
+}
+
+footer {
+    background-color: #1A5C38;
+    color: white;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    margin: 3px;
+}
+
+img {
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.left-column{
+    text-align: right;
+}
+
+.right-column{  
+    text-align: right;
+}
+
+/* #84E1AD verde claro
+/* #1A5C38 verde escuro
