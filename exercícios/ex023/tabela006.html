@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Responsivas</title>
+    <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;  
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(228, 228, 228);
+        }
+
+        div#container {
+            overflow: auto;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Tabelas em telas pequenas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet natus exercitationem, tenetur iste magnam accusamus vel! Eius, fugit, ab similique ipsam culpa officiis nemo, maxime minima repudiandae hic magnam et!</p>
+    <div id="container">
+        <table class="tabela-dados">
+        <thead>
+            <tr>
+            <th>ID</th>
+            <th>Categoria</th>
+            <th>Serviço</th>
+            <th>Status</th>
+            <th>Responsável</th>
+            <th>Data</th>
+            <th>Prioridade</th>
+            <th>Observações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>001</td>
+            <td>Front-end</td>
+            <td>Correção de layout mobile</td>
+            <td>Concluído</td>
+            <td>Marcos</td>
+            <td>05/02/2026</td>
+            <td>Alta</td>
+            <td>Ajustes em breakpoints</td>
+            </tr>
+            <tr>
+            <td>002</td>
+            <td>Back-end</td>
+            <td>Otimização de API</td>
+            <td>Em andamento</td>
+            <td>Ana</td>
+            <td>06/02/2026</td>
+            <td>Média</td>
+            <td>Redução de latência</td>
+            </tr>
+            <tr>
+            <td>003</td>
+            <td>Design</td>
+            <td>Revisão de identidade visual</td>
+            <td>Pendente</td>
+            <td>Carlos</td>
+            <td>07/02/2026</td>
+            <td>Baixa</td>
+            <td>Nova paleta</td>
+            </tr>
+            <tr>
+            <td>004</td>
+            <td>Front-end</td>
+            <td>Implementação de grid responsivo</td>
+            <td>Em andamento</td>
+            <td>Marcos</td>
+            <td>08/02/2026</td>
+            <td>Alta</td>
+            <td>CSS Grid + Flexbox</td>
+            </tr>
+            <tr>
+            <td>005</td>
+            <td>Back-end</td>
+            <td>Validação de formulários</td>
+            <td>Concluído</td>
+            <td>Lucas</td>
+            <td>09/02/2026</td>
+            <td>Média</td>
+            <td>Regex e sanitização</td>
+            </tr>
+            <tr>
+            <td>006</td>
+            <td>Infra</td>
+            <td>Configuração de servidor</td>
+            <td>Pendente</td>
+            <td>Renata</td>
+            <td>10/02/2026</td>
+            <td>Alta</td>
+            <td>AWS EC2</td>
+            </tr>
+            <tr>
+            <td>007</td>
+            <td>Front-end</td>
+            <td>Acessibilidade (WCAG)</td>
+            <td>Em andamento</td>
+            <td>Marcos</td>
+            <td>11/02/2026</td>
+            <td>Alta</td>
+            <td>ARIA labels</td>
+            </tr>
+            <tr>
+            <td>008</td>
+            <td>Back-end</td>
+            <td>Integração com banco</td>
+            <td>Concluído</td>
+            <td>Ana</td>
+            <td>12/02/2026</td>
+            <td>Média</td>
+            <td>PostgreSQL</td>
+            </tr>
+            <tr>
+            <td>009</td>
+            <td>Design</td>
+            <td>Criação de componentes UI</td>
+            <td>Em andamento</td>
+            <td>Carlos</td>
+            <td>13/02/2026</td>
+            <td>Média</td>
+            <td>Design system</td>
+            </tr>
+            <tr>
+            <td>010</td>
+            <td>Infra</td>
+            <td>Backup automatizado</td>
+            <td>Pendente</td>
+            <td>Renata</td>
+            <td>14/02/2026</td>
+            <td>Baixa</td>
+            <td>Rotina diária</td>
+            </tr>
+        </tbody>
+        </table>
+
+    </div>
+</body>
+</html>
